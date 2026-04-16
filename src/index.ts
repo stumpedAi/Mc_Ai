@@ -1,6 +1,6 @@
 import express from 'express';
-import { McAi } from './mc_ai.js';
-import { startCli } from './cli.js';
+import { McAi } from './mc_ai';
+import { startCli } from './cli';
 
 const PORT = Number(process.env.PORT ?? 4000);
 const app = express();

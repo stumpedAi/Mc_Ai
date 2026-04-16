@@ -1,5 +1,5 @@
-import type { ModelConnectorDefinition } from './models.js';
-import type { ToolDefinition } from './tools.js';
+import type { ModelConnectorDefinition } from './models';
+import type { ToolDefinition } from './tools';
 
 export interface PluginHost {
   registerTool(tool: ToolDefinition): void;

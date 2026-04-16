@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import type { MemoryEntry } from './types.js';
+import type { MemoryEntry } from './types';
 
 export class MemoryStore {
   private path: string;

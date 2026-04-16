@@ -1,5 +1,5 @@
 import readline from 'readline';
-import type { McAi } from './mc_ai.js';
+import type { McAi } from './mc_ai';
 
 export function startCli(mcAi: McAi) {
   const rl = readline.createInterface({

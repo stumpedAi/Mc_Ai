@@ -1,14 +1,14 @@
 import path from 'path';
-import { MemoryStore } from './memory.js';
-import { ProxyManager } from './proxy.js';
-import { ToolManager } from './tools.js';
-import { ModelConnectorManager } from './models.js';
-import { PluginManager, type PluginDefinition, type PluginHost } from './plugins.js';
-import { GoalExecutor } from './executor.js';
-import { safeJsonParse } from './utils.js';
-import type { McAiStatus, GoalOutcome, PlanStep, ExecutionStep } from './types.js';
-import type { ToolDefinition } from './tools.js';
-import type { ModelConnectorDefinition } from './models.js';
+import { MemoryStore } from './memory';
+import { ProxyManager } from './proxy';
+import { ToolManager } from './tools';
+import { ModelConnectorManager } from './models';
+import { PluginManager, type PluginDefinition, type PluginHost } from './plugins';
+import { GoalExecutor } from './executor';
+import { safeJsonParse } from './utils';
+import type { McAiStatus, GoalOutcome, PlanStep, ExecutionStep } from './types';
+import type { ToolDefinition } from './tools';
+import type { ModelConnectorDefinition } from './models';
 
 const DEFAULT_SOUL = 'Mc_Ai is a self-directed fullstack genius that builds, tests, and deploys code with relentless precision.';
 const DEFAULT_SYSTEM_PROMPT = 'You are Mc_Ai, the ultimate autonomous coding agent. Prioritize clarity, action, and adaptivity.';

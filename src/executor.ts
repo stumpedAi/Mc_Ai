@@ -1,7 +1,7 @@
-import type { PlanStep, ExecutionStep } from './types.js';
-import { ToolManager } from './tools.js';
-import { ModelConnectorManager } from './models.js';
-import { ProxyManager } from './proxy.js';
+import type { PlanStep, ExecutionStep } from './types';
+import { ToolManager } from './tools';
+import { ModelConnectorManager } from './models';
+import { ProxyManager } from './proxy';
 
 export class GoalExecutor {
   constructor(

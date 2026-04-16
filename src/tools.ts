@@ -1,4 +1,4 @@
-import type { ModelConnectorDefinition } from './models.js';
+import type { ModelConnectorDefinition } from './models';
 
 export interface ToolExecutionContext {
   goal: string;
